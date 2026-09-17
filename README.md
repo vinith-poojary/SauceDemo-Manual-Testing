@@ -1,10 +1,7 @@
 # SauceDemo Manual Testing Project
 
 ## Project Overview
-
-This project is created to practice manual software testing using the SauceDemo web application.
-
-The project focuses on testing the Login module and applying practical software testing concepts.
+This is a practical sotware testing project performed on the saucedemo web application. The project focuses on applying manual testing concepts in a real-world testing workflow.
 
 ## Application Under Test
 
@@ -15,11 +12,12 @@ The project focuses on testing the Login module and applying practical software 
 ## Testing Activities
 
 * Identified test scenarios
-* Created test cases
-* Prepared test data
-* Executed test cases on the application
-* Recorded actual results
-* Marked test cases as PASS or FAIL
+* Designed test cases
+* Executed test cases
+* Recorded test results
+* Identified a Validation defect
+* Reported the defect in jira
+* Prepared a bug report
 
 ## Test Artifacts
 
@@ -27,23 +25,21 @@ The project focuses on testing the Login module and applying practical software 
 * Test Cases
 * Test Execution Results
 * Bug Reports
-* Screenshots
+
+
+## Defect Found
+A validation issue was identified in the Postal Code field during checkout. The field accepts alphabetic and special-character input such as abc123 and @#$ without displaying a validation message.
 
 ## Tools Used
 
 * LibreOffice Calc
 * GitHub
 * SauceDemo
+* jira
 
-## Current Progress
+## Project Status
+Ongoing-additional modules and testing activities will be added as the project progresses.
 
-### Login Module
-
-* ✅ Test scenarios completed
-* ✅ Test cases completed
-* ✅ Test execution completed
-* ⏳ Bug reporting — to be completed
-* ⏳ Additional modules — to be completed
 
 ## Future Scope
 
