@@ -1,49 +1,134 @@
-# SauceDemo Manual Testing Project
+# SauceDemo Web Application – Software Testing Project
 
-## Project Overview
-This is a practical sotware testing project performed on the saucedemo web application. The project focuses on applying manual testing concepts in a real-world testing workflow.
+## 📌 Project Overview
 
-## Application Under Test
+This project is a practical software testing project performed on the **SauceDemo** web application.
+
+The purpose of this project is to practice real-world QA activities including test scenario creation, test case design, test execution, defect identification, defect reporting, and test documentation.
+
+## 🧪 Application Tested
 
 **Application:** SauceDemo
+**Website:** https://www.saucedemo.com/
 
-**Module Tested:** Login
+## 📂 Modules Tested
 
-## Testing Activities
+### 1. Login Module
 
-* Identified test scenarios
-* Designed test cases
-* Executed test cases
-* Recorded test results
-* Identified a Validation defect
-* Reported the defect in jira
-* Prepared a bug report
+Testing performed for:
 
-## Test Artifacts
+* Valid and invalid login credentials
+* Empty fields
+* Invalid username/password combinations
+* Password field behavior
+* Error message validation
+* Login functionality
 
-* Test Scenarios
-* Test Cases
-* Test Execution Results
-* Bug Reports
+### 2. Product Inventory Module
 
+Testing performed for:
 
-## Defect Found
-A validation issue was identified in the Postal Code field during checkout. The field accepts alphabetic and special-character input such as abc123 and @#$ without displaying a validation message.
+* Product display
+* Product information
+* Add to Cart functionality
+* Remove functionality
+* Cart behavior
+* Reset App State behavior
+* Product button state
 
-## Tools Used
+## 📋 Testing Activities
 
-* LibreOffice Calc
-* GitHub
-* SauceDemo
-* jira
+The following QA activities were performed:
 
-## Project Status
-Ongoing-additional modules and testing activities will be added as the project progresses.
+* Test scenario preparation
+* Test case preparation
+* Test data identification
+* Test execution
+* Expected vs Actual result comparison
+* Pass/Fail recording
+* Defect identification
+* Defect documentation
+* Jira defect reporting
+* Test evidence/screenshot collection
 
+## 🐞 Defects Found
 
-## Future Scope
+During testing, defects were identified and documented in Jira.
 
-* Test additional SauceDemo modules
-* Practice bug reporting using Jira
-* Add screenshots as testing evidence
-* Learn automation testing using Python
+Examples include:
+
+* Postal Code validation defect
+* Reset App State / product button state defect
+
+The complete defect information is available in the **Bug_Report** folder.
+
+## 🛠️ Tools Used
+
+| Tool             | Purpose                                                             |
+| ---------------- | ------------------------------------------------------------------- |
+| LibreOffice Calc | Test scenarios, test cases, execution results and bug documentation |
+| Jira             | Defect reporting and tracking                                       |
+| GitHub           | Test project documentation and version control                      |
+| Web Browser      | Application testing                                                 |
+
+## 📁 Project Structure
+
+```text
+testing/
+│
+├── Login/
+│   ├── Test_Scenarios
+│   └── Test_Cases
+│
+├── Product_Inventory/
+│   ├── Test_Scenarios
+│   └── Test_Cases
+│
+├── Bug_Report/
+│   ├── Bug_Report
+│   └── Screenshots
+│
+└── README.md
+```
+
+## 🔄 Testing Process
+
+```text
+Understand Application
+        ↓
+Identify Test Scenarios
+        ↓
+Write Test Cases
+        ↓
+Execute Test Cases
+        ↓
+Record Actual Results
+        ↓
+Identify Defects
+        ↓
+Report Defects in Jira
+        ↓
+Document Testing Evidence
+        ↓
+Store Project Files in GitHub
+```
+
+## 📊 Project Outcome
+
+This project provided practical experience with:
+
+* Manual software testing
+* Test scenario design
+* Test case writing
+* Test execution
+* Defect identification
+* Defect reporting
+* Jira workflow
+* Test documentation
+* GitHub project organization
+
+## 👨‍💻 Project Status
+
+**Status:** In Progress
+
+Additional SauceDemo modules and testing activities may be added as the project continues.
