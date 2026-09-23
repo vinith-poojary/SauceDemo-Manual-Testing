@@ -1,134 +1,101 @@
-# SauceDemo Web Application – Software Testing Project
+# SauceDemo Software Testing Project
 
-## 📌 Project Overview
+## Project Overview
 
-This project is a practical software testing project performed on the **SauceDemo** web application.
+This is a practical manual software testing project performed on the SauceDemo web application.
 
-The purpose of this project is to practice real-world QA activities including test scenario creation, test case design, test execution, defect identification, defect reporting, and test documentation.
+The project demonstrates a real-world QA testing workflow including test scenario preparation, test case design, test execution, defect identification, Jira bug reporting, and test documentation.
 
-## 🧪 Application Tested
+## Application Tested
 
-**Application:** SauceDemo
-**Website:** https://www.saucedemo.com/
+SauceDemo
 
-## 📂 Modules Tested
+## Testing Type
 
-### 1. Login Module
+Manual Testing
 
-Testing performed for:
+## Modules Tested
 
-* Valid and invalid login credentials
-* Empty fields
-* Invalid username/password combinations
-* Password field behavior
-* Error message validation
-* Login functionality
+- Login
+- Product Inventory
+- Checkout
 
-### 2. Product Inventory Module
+## Testing Activities Completed
 
-Testing performed for:
+- Identified test scenarios
+- Designed test cases
+- Executed test cases
+- Recorded actual results
+- Marked test cases as Pass/Fail
+- Identified potential and confirmed defects
+- Documented defects in a Bug Report
+- Reported defects in Jira
+- Captured screenshots/evidence
+- Maintained testing documentation
+- Organized testing artifacts in GitHub
 
-* Product display
-* Product information
-* Add to Cart functionality
-* Remove functionality
-* Cart behavior
-* Reset App State behavior
-* Product button state
+## Test Artifacts
 
-## 📋 Testing Activities
+### Login
+- Login Test Scenarios
+- Login Test Cases
+- Login Test Execution
 
-The following QA activities were performed:
+### Product Inventory
+- Product Inventory Test Scenarios
+- Product Inventory Test Cases
+- Product Inventory Test Execution
 
-* Test scenario preparation
-* Test case preparation
-* Test data identification
-* Test execution
-* Expected vs Actual result comparison
-* Pass/Fail recording
-* Defect identification
-* Defect documentation
-* Jira defect reporting
-* Test evidence/screenshot collection
+### Checkout
+- Checkout Test Scenarios
+- Checkout Test Cases
+- Checkout Test Execution
 
-## 🐞 Defects Found
+### Defect Management
+- Bug Report
+- Jira Bug Reports
+- Screenshots/Evidence
+- Bug Retesting documentation
 
-During testing, defects were identified and documented in Jira.
+## Defects Identified
 
-Examples include:
+During testing, the following defects were identified:
 
-* Postal Code validation defect
-* Reset App State / product button state defect
+1. **Postal Code Validation**
+   - Postal Code accepts alphabetic and special-character input such as `abc123` and `@#$`.
 
-The complete defect information is available in the **Bug_Report** folder.
+2. **Reset App State UI Synchronization**
+   - Reset App State clears the cart, but the product button continues to display `Remove` until the page is refreshed.
 
-## 🛠️ Tools Used
+3. **Whitespace Validation**
+   - First Name and Last Name fields accept whitespace-only input.
 
-| Tool             | Purpose                                                             |
-| ---------------- | ------------------------------------------------------------------- |
-| LibreOffice Calc | Test scenarios, test cases, execution results and bug documentation |
-| Jira             | Defect reporting and tracking                                       |
-| GitHub           | Test project documentation and version control                      |
-| Web Browser      | Application testing                                                 |
+Each defect is documented separately and tracked using Jira.
 
-## 📁 Project Structure
+## Tools Used
 
-```text
-testing/
-│
-├── Login/
-│   ├── Test_Scenarios
-│   └── Test_Cases
-│
-├── Product_Inventory/
-│   ├── Test_Scenarios
-│   └── Test_Cases
-│
-├── Bug_Report/
-│   ├── Bug_Report
-│   └── Screenshots
-│
-└── README.md
-```
+- LibreOffice Calc
+- Jira
+- GitHub
+- SauceDemo
 
-## 🔄 Testing Process
+## Testing Workflow
 
 ```text
-Understand Application
+Application Understanding
         ↓
-Identify Test Scenarios
+Test Scenarios
         ↓
-Write Test Cases
+Test Cases
         ↓
-Execute Test Cases
+Test Execution
         ↓
-Record Actual Results
+Defect Identification
         ↓
-Identify Defects
+Bug Report
         ↓
-Report Defects in Jira
+Jira Bug Tracking
         ↓
-Document Testing Evidence
+Retesting
         ↓
-Store Project Files in GitHub
-```
-
-## 📊 Project Outcome
-
-This project provided practical experience with:
-
-* Manual software testing
-* Test scenario design
-* Test case writing
-* Test execution
-* Defect identification
-* Defect reporting
-* Jira workflow
-* Test documentation
-* GitHub project organization
-
-## 👨‍💻 Project Status
-
-**Status:** In Progress
-
-Additional SauceDemo modules and testing activities may be added as the project continues.
+Documentation
