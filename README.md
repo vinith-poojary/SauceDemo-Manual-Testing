@@ -19,6 +19,7 @@ Manual Testing
 - Login
 - Product Inventory
 - Checkout
+- Menu
 
 ## Testing Activities Completed
 
@@ -27,48 +28,66 @@ Manual Testing
 - Executed test cases
 - Recorded actual results
 - Marked test cases as Pass/Fail
-- Identified potential and confirmed defects
+- Identified defects
 - Documented defects in a Bug Report
 - Reported defects in Jira
-- Captured screenshots/evidence
+- Captured screenshots and evidence
 - Maintained testing documentation
 - Organized testing artifacts in GitHub
 
 ## Test Artifacts
 
 ### Login
+
 - Login Test Scenarios
 - Login Test Cases
 - Login Test Execution
 
 ### Product Inventory
+
 - Product Inventory Test Scenarios
 - Product Inventory Test Cases
 - Product Inventory Test Execution
 
 ### Checkout
+
 - Checkout Test Scenarios
 - Checkout Test Cases
 - Checkout Test Execution
 
+### Menu
+
+- Menu Test Scenarios
+- Menu Test Cases
+- Menu Test Execution
+
 ### Defect Management
+
 - Bug Report
 - Jira Bug Reports
-- Screenshots/Evidence
-- Bug Retesting documentation
+- Screenshots / Evidence
+- Bug Retesting Documentation
 
 ## Defects Identified
 
 During testing, the following defects were identified:
 
-1. **Postal Code Validation**
-   - Postal Code accepts alphabetic and special-character input such as `abc123` and `@#$`.
+### 1. Postal Code Validation
 
-2. **Reset App State UI Synchronization**
-   - Reset App State clears the cart, but the product button continues to display `Remove` until the page is refreshed.
+The Postal Code field accepts alphabetic and special-character input such as:
 
-3. **Whitespace Validation**
-   - First Name and Last Name fields accept whitespace-only input.
+- `abc123`
+- `@#$`
+
+without displaying a validation message.
+
+### 2. Reset App State UI Synchronization
+
+Reset App State clears the cart, but the product button continues to display `Remove` until the page is refreshed.
+
+### 3. Whitespace Validation
+
+The First Name and Last Name fields accept whitespace-only input.
 
 Each defect is documented separately and tracked using Jira.
 
